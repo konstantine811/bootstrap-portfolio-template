@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="./node_modules/material-icons/iconfont/material-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Our services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main
+      class="
+        main-section
+        pt-5
+        h-10
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center0
+      "
+    >
+      <div class="container">
+        <div class="text-center">
+          <h4 class="display-4 text-light">Welcome To Our Studio!</h4>
+          <h2 class="display-1 text-light text-uppercase mb-5">
+            It's nice to meet you
+          </h2>
+          <button
+            type="button"
+            class="btn btn-secondary px-5 py-3 text-uppercase"
+          >
+            Tell me more
+          </button>
+        </div>
+      </div>
+    </main>
+    <section class="second-section py-5">
+      <div class="container">
+        <h3 id="service" class="display-3 text-center">Our services</h3>
+        <p class="fs-3 text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+        <div class="row justify-content-md-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0">
+              <div
+                class="card-header border-0 d-flex justify-content-center py-2"
+              >
+                <span class="material-icons-outlined"> work </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0">
+              <div
+                class="card-header border-0 d-flex justify-content-center py-2"
+              >
+                <span class="material-icons-outlined"> android </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0">
+              <div
+                class="card-header border-0 d-flex justify-content-center py-2"
+              >
+                <span class="material-icons-outlined"> view_in_ar </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="third-section py-5">
+      <div class="container">
+        <h3 class="display-3 text-center text-uppercase">Portfolio</h3>
+        <p class="fs-3 text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+              <img
+                src="./assets/img/first.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption w-100 d-none d-md-block">
+                <h5 class="display-5">First project</h5>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  First project
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="modal-title text-dark"
+                          id="exampleModalLabel"
+                        >
+                          First Project
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="text-dark fs-3">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit. Iusto asperiores qui porro obcaecati quod
+                          distinctio molestias neque voluptate eveniet minus
+                          delectus alias atque, veniam amet ab inventore ipsa at
+                          quia?
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/second.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/third.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      id="contacts"
+      class="fourth-section d-flex flex-column justify-content-center"
+    >
+      <div class="container">
+        <div class="text-white">
+          <h3 class="display-3 text-center text-uppercase">Our contacts</h3>
+          <p class="fs-3 text-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label"
+              >First name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              value="Mark"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom02"
+              value="Otto"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label"
+              >Username</label
+            >
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustomUsername"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <div class="invalid-feedback">Please choose a username.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom03"
+              required
+            />
+            <div class="invalid-feedback">Please provide a valid city.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>3</option>
+            </select>
+            <div class="invalid-feedback">Please select a valid state.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom05"
+              required
+            />
+            <div class="invalid-feedback">Please provide a valid zip.</div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-white">
+      <nav class="navbar navbar-expand-lg py-3 navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown dropup">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

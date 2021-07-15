@@ -1,0 +1,22 @@
+$primary: #596e69;
+$danger: #0a0a0a;
+$success: black;
+$info: black;
+$warning: black;
+$danger: black;
+$light: rgb(226, 226, 226);
+$dark: black;
+$secondary: rgb(41, 41, 41);
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
+
+$form-label-color: $light;
+$form-check-label-color: $light;

@@ -1,0 +1,47 @@
+body,
+html {
+  height: 100%;
+}
+
+#mainNav {
+  background-color: $dark;
+  transition: all 0.4s ease;
+}
+
+#mainNav.navbar-shrink {
+  background-color: $dark;
+  padding: 1rem;
+}
+
+.main-section {
+  min-height: 100%;
+  background-image: url('../../assets/img/main-bgc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-section {
+  background-color: $gray-100;
+}
+
+.fourth-section {
+  min-height: 100%;
+  background-color: $dark;
+  background-image: url('../../assets/img/map-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem 0;
+  background-color: rgba($primary, 0.5);
+}
+
+@include media-breakpoint-up(sm) {
+  #mainNav {
+    background-color: transparent;
+  }
+}
